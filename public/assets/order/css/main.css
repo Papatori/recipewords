@@ -1,0 +1,28 @@
+.image img{
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  width: 144px;
+}
+.image.is-48x48{
+  width:96px;
+}
+.media-content{
+  margin-left: -25px;
+}
+.card{
+  margin-bottom: 15px;
+}
+.navbar-menu{
+  align-items: stretch;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.navbar-brand, .navbar-menu{
+  background: #f1b895;
+}
+.navbar-brand>a{
+  color:#943939;
+  font-weight: bold
+}
