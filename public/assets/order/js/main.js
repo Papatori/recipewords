@@ -1,4 +1,12 @@
 $('#filter-text').change(function() {
+	// GAトラッキング
+	ga('send', {
+		hitType: 'event',
+		eventCategory: 'userInput',
+		eventAction: 'input',
+		eventLabel: 'searchWord'
+	})
+
 	// menuの中から、filter-textにまったく一致しないものを抽出し、非表示
 	const filterText = $('#filter-text').val()
 	if(filterText.length > 0){
