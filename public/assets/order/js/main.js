@@ -4,7 +4,8 @@ $('#filter-text').change(function() {
 		hitType: 'event',
 		eventCategory: 'userInput',
 		eventAction: 'input',
-		eventLabel: 'searchWord'
+		eventLabel: 'searchWord',
+		eventValue: 0
 	})
 
 	// menuの中から、filter-textにまったく一致しないものを抽出し、非表示
