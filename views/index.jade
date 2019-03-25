@@ -6,7 +6,7 @@ block vars
   - var page = pages[key]
 
 block style
-  link(rel='stylesheet', href=domain+root+assets_root+"/order/css/main.css")
+  link(rel='stylesheet', href=domain+root+assets_root+"/top/css/main.css")
 
 block contents
   // Contents
@@ -24,7 +24,7 @@ block contents
           .media
             .media-left.media-img
               figure.image.is-48x48
-                img.menu-image(src=domain+root+assets_root + "/order/img/"+ menuId +".png", alt=menu[menuId].wordTitle)
+                img.menu-image(src=domain+root+assets_root + "/top/img/"+ menuId +".png", alt=menu[menuId].wordTitle)
             .media-content
               p.title.is-5.name= menu[menuId].wordTitle
           .content
@@ -32,4 +32,4 @@ block contents
       - }
 
 block js
-    script(type='text/javascript', src=domain+root+assets_root+"/order/js/main.js")
+    script(type='text/javascript', src=domain+root+assets_root+"/top/js/main.js")
