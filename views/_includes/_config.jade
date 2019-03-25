@@ -1,5 +1,4 @@
-- var domain = "https://recipewords.herokuapp.com"
-//- - var domain = "http://localhost:3000"
+- var domain = process.env.NODE_ENV ? "https://recipewords.herokuapp.com" : "http://localhost:3000"
 - var root = ""
 - var assets_root = "/public/assets"
 - var projectId = "recipe-words"
